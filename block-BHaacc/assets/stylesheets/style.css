@@ -1,0 +1,461 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* <i class="fa fa-facebook-square"></i> */
+/* <i class="fa fa-instagram"></i> */
+/* <i class="fa fa-twitter"></i> */
+
+
+
+
+
+
+/* ------custom style---------- */
+
+/* -------common-style----------- */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    padding: 0 11%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.center {
+    align-items: center;
+}
+/* --------background image--------- */
+.hero {
+    background: linear-gradient(to right,rgba(4, 112, 245, 0.644),rgba(63, 235, 74, 0.568)),url("../media/img/home-bg.jpg") 10%;
+    background-size: cover;
+    /* height: 120vh; */
+    color: white;
+}
+
+
+/* --------header------- */
+.header a, .footer a {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.navbar-container{
+    width: 83%;
+}
+.navbar a {
+    padding: 25px;
+}
+.header {
+    padding: 2.8% 11%;
+}
+.company-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.social-media-icon a{
+    padding: 15px;
+
+
+
+}
+.social-media-icon a.sign-in-button {
+    background-color: #D03832;
+    border-radius: 40px;
+    padding: 18px 28px;
+    margin-left: 35px;
+}
+
+
+
+/* ------heading and video--------- */
+
+.h1-and-video-section {
+    padding: 11%;
+}
+
+.video-size {
+    width: 711.11px;
+    height: 400px;
+}
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+
+
+}
+.h1-container {
+    width: 42%;
+}
+.project-button {
+    padding: 2.5% 5.5%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 60px;
+    
+}
+.call-us {
+    font-weight: 600;
+    padding-left: 30px;
+    font-size: large;
+}
+.start-and-call-div {
+    justify-content: start;
+    align-items: center;
+    padding: 6% 0;
+
+}
+
+
+/* ---------Let us introduce--------- */
+
+.let-us-introduce-container {
+    padding: 6% 11%;
+    padding-bottom: 0;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(216,216,216);
+    margin: 10px 3px;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.let-us-introduce-image {
+    width: 30%;
+}
+.let-us-introduce-image img {
+width: 100%;
+}
+
+.let-us-introduce-content {
+    width: 40%;
+}
+
+.h2{
+    font-size: 37px;
+    color: rgb(57,57,57);
+    font-weight: 500;
+    padding-top: 5%;
+}
+.para-white-background {
+    font-size: 19px;
+    color: rgb(171,171,171);
+    font-weight: 500;
+    padding: 12px 0;
+
+
+}
+
+/* --------meter-box-------- */
+.meter-box {
+    width: 25%;
+    font-size: large;
+    font-weight: 600;
+    padding: 2.5%;
+}
+.meter-container {
+    padding-top: 10%;
+}
+.meter-info {
+    padding-bottom: 3%;
+}
+.meter {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.eighty-five {
+    width: 85%;
+
+}
+
+.ninety {
+    width: 90%;
+
+}
+.seventy-five {
+    width: 75%;
+
+}
+.seventy {
+    width: 70%;
+
+}
+
+
+
+/* ---------Our--Blog--------- */
+
+.our-blog {
+    background-color: rgb(239,239,239);
+    padding-bottom: 8%;
+}
+
+.articles-container {
+    flex-wrap: wrap;
+
+}
+
+.our-blog-header {
+    text-align: center;
+}
+
+
+.blog-article {
+    flex-basis: 48%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 10px 10px rgb(230, 229, 229) ;
+}
+
+.blog-article img{
+    width: 43%;
+}
+
+.blog-article-content {
+    padding: 10% 6%;
+    font-weight: 500;
+    padding-right: 1%;
+
+}
+
+.blog-article  {
+    background-color: white;
+}
+
+
+.blog-article-content i {
+    color: rgb(211,73,69);
+    margin-right: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.blog-article-content time {
+    color: rgb(211,73,69);
+    font-weight: 600;
+
+}
+
+.blog-article-content h3 {
+  font-size: 28px;
+}
+
+.article-button {
+    color: rgb(99,99,99);
+    background-color: rgb(239,239,239);
+    padding: 5% 12%;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+
+/*--------- Our-work--------- */
+
+.our-work  {
+    padding-bottom: 5%;
+}
+
+.Our-work-image-container {
+    margin-top: 3%;
+    
+}
+
+.Our-work-image-container img {
+   width: 23%;
+}
+
+
+   /*--------- contact-us---------- */
+
+
+   .contact-us {
+       background: linear-gradient(to right, rgb(13,117,230), rgb(123,236,100));
+       padding-bottom: 5%;
+   }
+   .contact-us h2 {
+       color: white;
+   }
+
+   .form {
+       width: 65%;
+       flex-wrap: wrap;
+   }
+   .name {
+       width: 47%;
+       padding: 2.2%;       
+       margin: 1%;
+       background-color: white;
+       border-radius: 8px;
+       font-size: 20px;
+   }
+   .massage-box {
+    width: 100%;
+    height: 160px;
+    padding: 2.5%;
+    margin: 1%;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+
+
+   }
+   .send-massage-button {
+    background-color: #D03832;
+    border-radius: 40px;
+    padding: 20px 50px;
+    color: white;
+    border: none;
+    margin: 1%;
+    font-size: 16px;
+}
+
+
+   .google-map {
+       width: 400px;
+       height: 400px;
+       margin-right: 20px;
+       border-radius: 50%;
+}
+
+
+
+/* -----------footer--------- */
+
+.footer {
+    background: linear-gradient(to right, rgb(66,66,66),rgb(0,0,0));
+    padding: 7% 11% 1% 11%;
+    color: white;
+}
+.footer h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+.footer-icon {
+    width: 70%;
+}
+.footer article {
+    width: 37%;
+}
+.footer .para{
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+    font-weight: 600;
+    padding: 12px 0;
+}
+.footer-icon a{
+    color: rgb(182, 182, 182);
+}
+.hydro-section {
+    margin-bottom: 5%;
+
+}
+.footer-hr {
+    height: 2Px;
+    /* background: linear-gradient(to right,rgb(78, 78, 78),rgb(66, 66, 66)) ; */
+    color: rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
+
+}
+.footer-copy-right {
+    padding: 4% 1%;
+}
+.footer address p {
+    font-size: 19px;
+    font-size: 600;
+    color: rgb(175,175,175);
+
+}
+.footer .social-media-icon {
+    margin: 0% 5%;
+}
+.footer-copy-right h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(175,175,175);
+}
+.list-item a{
+    color: rgb(175,175,175);
+}
